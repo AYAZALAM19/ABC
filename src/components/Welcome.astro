@@ -1,0 +1,52 @@
+---
+import "../style/global.css"
+---
+
+<header class="bg-white shadow-sm">
+  <!-- Desktop Navigation -->
+  <nav class="hidden md:block container mx-auto px-4 py-4">
+    <div class="flex items-center justify-between">
+      <a href="/" class="flex-shrink-0">
+        <img class="w-[80px] h-[80px] object-contain" src="/assets/images/logo1.png" alt="Logo">
+      </a>
+      
+      <ul class="flex items-center space-x-8">
+        <li><a href="/collection" class="text-gray-800 hover:text-gray-600">Collection</a></li>
+        <li><a href="/new-in" class="text-gray-800 hover:text-gray-600">New In</a></li>
+        <li><a href="/modiweek" class="text-gray-800 hover:text-gray-600">Modiweek</a></li>
+        <li><a href="/plus-size" class="text-gray-800 hover:text-gray-600">Plus Size</a></li>
+        <li><a href="/sustainability" class="text-gray-800 hover:text-gray-600">Sustainability</a></li>
+      </ul>
+
+      <div class="flex items-center gap-6">
+        <button class="hover:text-gray-600"><svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></button>
+        <button class="hover:text-gray-600 "><svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg></button>
+        <button class="hover:text-gray-600 hover:stroke-red-600"><svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg></button>
+        <button class="hover:text-gray-600"><svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Navigation -->
+  <nav class="md:hidden px-4 py-3">
+    <div class="flex items-center justify-between">
+      <button class="hover:text-gray-600">
+        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+
+      <a href="/" class="flex-shrink-0">
+        <img class="w-[60px] h-[60px] object-contain" src="/assets/images/logo1.png" alt="Logo">
+      </a>
+
+      <button class="hover:text-gray-600">
+        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/>
+          <path d="M3 6h18"/>
+          <path d="M16 10a4 4 0 0 1-8 0"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+</header>
